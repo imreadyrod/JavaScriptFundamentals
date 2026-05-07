@@ -21,3 +21,16 @@ function increaseCount() {
     checkCountValue(); // Check count value and display messages
 }
 
+
+function alertReset(){
+    if (count === 0) {
+        alert("Followers count has been reset");
+    }
+}
+
+
+function resetCount(){
+    count = 0
+    alertReset();
+}
+
